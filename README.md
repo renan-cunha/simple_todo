@@ -1,7 +1,7 @@
 # Simple To-do
 
 This is a simple todo application that runs on command-line.
-It is a exercise proposed on the Chapter 2 of the Python3-OOP book by Dusty 
+It is an exercise proposed in Chapter 2 of the Python3-OOP book by Dusty 
 Philips.
 
 ## Installation
@@ -22,7 +22,8 @@ To execute, run
 ```bash
 todo
 ```
-A task has just two features, a name and a deadline. The deadline must be on
+A task has just two features, a name and a deadline. 
+The tasks with closer deadlines appear first. The deadline must be on
 year-month-day format.
 The user can perform the following actions:
 ```bash
