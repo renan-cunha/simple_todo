@@ -10,7 +10,7 @@ class ToDo:
         file, if not, tasks are empty"""
         self.tasks = []
         path = os.path.dirname(os.path.abspath(__file__))
-        self.__obj_file_name = "{0}/../checkpoint/checkpoint.obj".format(path)
+        self.__obj_file_name = "{0}/../checkpoint.obj".format(path)
         if os.path.isfile(self.__obj_file_name):
             self.__load()
 
